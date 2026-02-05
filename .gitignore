@@ -1,41 +1,17 @@
-# Prerequisites
-*.d
+# Arduino / ESP32
+*.bin
+*.elf
+*.map
+*.hex
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDE
+.vscode/
+.idea/
+*.swp
 
-# Precompiled Headers
-*.gch
-*.pch
+# OS
+.DS_Store
+Thumbs.db
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Secrets (if you use one)
+secrets.h
